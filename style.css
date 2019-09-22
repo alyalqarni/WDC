@@ -1,0 +1,42 @@
+.animatedBox {
+  width: 500px;
+  height: 250px;
+  text-align: left;
+  font: 10px/15px sans-serif;
+  color: white;
+  background-color: red;
+  animation: myAnimation 12s ease 1s 1 forwards;
+}
+
+@keyframes myAnimation {
+  33% {
+    background-color: green;
+  }
+  66% {
+    backgrocund-color: blue;
+  }
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFB6C1;
+}
+
+	
+p {
+  padding-top: 25px;
+  font-family: monospace;
+  text-overflow: ellipsis;
+}
+
+.profile-img{
+	resize: both;
+	height: 30px;
+	width: 30px;
+	overflow: auto;
+}
